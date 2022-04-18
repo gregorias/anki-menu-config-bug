@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+TARGET_PATH=menubug.ankiaddon
+zip ${TARGET_PATH} -j \
+  menubug/*.py \
+  menubug/manifest.json
